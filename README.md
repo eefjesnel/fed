@@ -57,11 +57,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Ik had een begrafenis op de dag van de tests. Thuis heb ik de tests geprobeerd na te bootsen.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Ik ben zelf niet ervaren met screenreaders maar na verloop van tijd werd het duidelijker en makkelijker te gebruiken.
+  Wat me opviel is de headings die als vragen zijn gesteld, zijn moeilijker te begrijpen met een screenreader. 
+  Verder staan er te veel headings op de website, die allemaal worden uitgesproken door de screenreader.
+  Daarnaast hebben veel afbeeldingen en video's geen alt-teksten en worden dus niet omschreven. Dit voelde voor mij vrij frustrerend omdat de stem 
+  voorlas dat er een afbeelding was maar vervolgens krijg ik geen informatie of een idee van diezelfde afbeelding.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Het lijkt me handig om de headings te veranderen naar standaard woorden of zinnen i.m.v. vragen. 
+  Door semantische html te schrijven kan ik voorkomen dat elke tekst wordt uitgesproken door de screenreader. Daarnaast verkom ik er ook mee
+  dat de afbeeldingen en video's geen alt-tekst hebben.
 
 
   #### Muis en Toetsenbord 
@@ -71,15 +78,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Ik had geen apparaatje kunnen gebruiken om een goede weergave te geven van een gebruik van een computer met de ziekte van Parkinson. 
+  Wel had ik gelukkig een lieftallige huisgenoot die aan mijn hand schudde om toch nog een (misschien niet al te realistische) test te kunnen doen.
+  Het bleek dat de Fairtrade website behoorlijk inclusive is voor mensen met de ziekte van Parkinson.
+  De buttons en links zijn groot en zijn erg goed klikbaar. Ook als de muis trilt, klik je 7 uit de 10 keer juist.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Wat misschien nog wat beter kan is dat bij buttons en links die wat aan de kleine kan zijn, toch nog iets meer ruimte geven.
+  Of er wat ruimte omheen die niet zichbaar is maar wel klikbaar. 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Ik had ook helaas geen mooie brillen om meerdere beperkingen te kunnen na bootsen, wel had ik een enorm versterkte bril van mijn ouders ;) en gelukkig een vriend met kleurenblindheid. 
+  Het lettertype van de Fairtrade website is groot maar erg vet, Het feit dat het groot is helpt met de leesbaarheid maar de vetheid spreekt dat weer tegen. Verder is de letter-spacing vrij dichtbij elkaar, dit maakt het ook minder leesbaar voor mensen met een minder goed zicht.
+  Over het algemeen is het contrast vrij goed om de site, op sommige plekken is er iets minder contrast waar de vriend met kleurenblindheid ook last van had. Verder vond hij de site vrij duidelijk. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Door goed na te denken over contrast en een lettertype te kiezen die wat meer open is, kan ik de meeste problemen verhelpen. Mijn focus punt hier is om voor duidelijkheid te zorgen.
 
 </details>
 
