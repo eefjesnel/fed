@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Eefje Snel
 
   #### Je startniveau:
-  Blauw
+  Blauw (+ klein beetje rood)
 
   #### Je focus:
   Surface plane
@@ -72,9 +72,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met tab en pijltjes had ik de Fairtrade site getest met een vrij schokkend resultaat. Om te beginnen werd bij elk filmpje moest je als gebruiker door alle verschillende buttons en links bewegen en kon je deze niet overslaan. Maar wat vooral erg tegenviel was dat alle headings standaard werden overgeslagen en die op geen enkele manier gereikbaar waren voor alleen toetsenbord. Na het laaste filmpje op de pagina, sprong de site direct naar de footer en sloeg de rest over. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Het is naar mijn mening erg belangrijk op alle headings bereikbaar te maken en om de buttons en links in video's te kunnen overslaan. Dit maakt de navigatie door de site een stuk soepeler. Hoe ik dat moet doen weet ik nog niet helemaal en zou ik graag willen vragen in het eerst voortgangsgesprek. 
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -101,10 +101,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 2e werkgroep</summary>
+  <summary>De breakdownschetsen vond ik nog vrij moeilijk te maken. Dat kwam vooral omdat de site af en toe wat aangepast moest worden, hierdoor wist ik niet altijd meteen wat ik moest neerzetten. Ik heb de meeste dingen in de breakdownschets gezet, waarschijnlijk missen er nog wat onderdelen maar ik hoop dat bij te kunnen werken in de html.</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/WordPartnerBreakDown.svg" width="375px" alt="breakdown van de hele pagina word partner">
+
+  ### de hele pagina: 
+  <img src="readme-images/ProductenBreakDown.svg" width="375px" alt="breakdown van de hele pagina producten">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -124,17 +127,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De html opzetten ging vrij goed, wat ik wel moeilijk vind is het correct semantisch schrijven. Dit hebben we wel geleerd maar ik weet de juiste attributen niet. Soms weet ik bijvoorbeeld niet hoe ik alt-text toevoeg of hoe ik iets de optie kan geven om het over te slaan. Verder heb ik een aantal fouten in mijn site gevonden maar ik weet nog niet helemaal hoe ik dat het best kan verbeteren, ik hoop daar een plan of een handige tip voor de te kunnen maken/vinden. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1: Eefje               | student 2: Nicole          | student 3    | student 4        |
+  | ---                            | ---                        | ---          | ---              |
+  | Verbeteringen site             | Verbeteringen site         | en ik dit    | en dan ik dat    |
+  | Semantische html               |                            | nog een punt | dit wil ik zeker |
+  | Footer                         | ...                        | ...          | ...              |
 
 
   ### Verslag van meeting
