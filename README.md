@@ -143,9 +143,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - punt 1: Er zijn een aantal punten op de huidige site die niet al te best zijn en die ik graag wil verbeteren. Ik had moeite met keuzes maken over hoe ik die problemen moest oplossen. Hierbij ben ik geholpen, voornamelijk met het probleem bij het menu.
+  - punt 2: Ik wilde de site qua toegankelijkheid verbeteren, ik had wat vragen gesteld over bepaalde attributes. Ik kreeg fijne antwoorden waar ik later meer mee kan.
+  - punt 3: Ik had een probleem met de heading levels maar die lostte zich vanzelf op.
   - ...
 
 </details>
@@ -160,7 +160,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb voornamelijk veel tijd gestoken in het oefenen met js en animaties. Ik ben niet veel verder gekomen met mijn site, maar de js is nu wel gelukt en is volledig resonsive. Dit was een groot opstakel voor mij dus ik ben blij dat achter de rug te hebben.
 
 
   ### Agenda voor meeting
@@ -168,8 +168,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | tijd inhalen   | en dit             | en ik dit    | en dan ik dat    |
+  |                | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
