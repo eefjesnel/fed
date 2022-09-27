@@ -12,18 +12,16 @@ summary {
 	cursor: pointer;
 }
 
-
-
-
-
 /*********************/
-/* CUSTOM PROPERTIES */
+/* CUSTOM PROPERTIES #EE6C4A */
 /*********************/
 :root {
 	/* startje */
 	--accentBlauw: #0FC0FB;
 	--accentGroen: #D4FF47;
-	--achtergrond: #EE6C4A;
+	--selectedKleur: #EE6C4A;
+	--achtergrond: black;
+	--visitedKleur: #0FA6FB;
 }
 
 
@@ -36,19 +34,22 @@ h2,
 h3,
 h4 {
 	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
 }
 
 p {
-	font-family: 'open sans';
+	font-family: 'Barlow', sans-serif;
 	font-size: 1em;
+	color: white;
 }
 
-header li {
-	font-family: 'open sans';
+header li, button {
+	font-family: 'Barlow', sans-serif;
 }
 
 body {
 	margin: 0;
+	background-color: black;
 }
 
 /****************/
@@ -60,8 +61,10 @@ header div {
 	align-items: center;
 	justify-content: center;
 	gap: 1vw;
-	background-image: url("https://images.unsplash.com/photo-1612454001981-ec4f7eed5cc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmlvbG9naWNhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60") /* unsplash foto: olivia hutcherson */;
+	/*background-image: url("https://images.unsplash.com/photo-1627996869054-c17803f7fb89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60") /* unsplash foto: Olivia Hutcherson */;
 	padding: 2vh;
+	background-position: center;
+	background-color: var(--accentGroen);
 }
 
 header img {
@@ -71,20 +74,25 @@ header img {
 	/* seekpng.com free download */
 }
 
+header img:focus {
+	outline: none;
+	border-bottom: 3px solid var(--selectedKleur);
+		/* WAAROM WERKT DIT NIET? */
+}
+
 header ul {
 	list-style-type: none;
 }
 
 header a {
 	text-decoration: none;
-	color: var(--colorLink);
 }
 
 header h1 {
 	letter-spacing: .1em;
 	font-size: 5vw;
 	margin: 0;
-	color: white
+	color: black;
 }
 
 /****************/
@@ -100,7 +108,6 @@ nav {
 
 nav ul {
 	position: relative;
-	background-color: white;
 	margin: 0;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -108,20 +115,32 @@ nav ul {
 	padding: 1em;
 	gap: .5em;
 	display: none;
-	
 }
 
 nav li {
-	background-color: white;
+	background-color: var(--accentGroen);
 	padding: .3em;
 	margin: .3em;
-	border-radius: .5em;
+	border-radius: .8em;
+}
+
+/****************/
+/* NAV LINK STYLING */
+/****************/
+
+nav li:hover {
+	background-color: var(--accentBlauw);
+	transition: .3s ease-in-out;
 }
 
 nav li a {
-	color: var(--achtergrond);
+	color: black;
 	text-transform: lowercase;
 }
+
+/****************/
+/* NAV BUTTON STYLING */
+/****************/
 
 nav button {
 	position: absolute;
@@ -129,13 +148,31 @@ nav button {
 	top: 95%;
 	left: 50%;
 	transform: translateX(-50%);
-	border-radius: 1em;
-	border: 3px solid var(--achtergrond);
-	background-color: var(--achtergrond);
-	width: 7em;
-	height: 2.5em;
-	font-family: open sans;
+	border-radius: 1.2em;
+	border: 3px solid var(--accentGroen);
+	background-color: transparent;
+	padding: .5em 2em;
+	font-family: 'Barlow', sans-serif;
 	color: white;
+	font-size: 1.2em;
+	color: var(--accentGroen)
+}
+
+nav button:hover {
+	border-color: var(--accentBlauw);
+	color: var(--accentBlauw);
+	transition: .3s ease-in-out;
+}
+
+nav button:visited {
+	border-color: var(--visitedKleur);
+	color: var(--visitedKleur);
+}
+
+nav button:focus {
+	outline: none;
+	border-color: var(--selectedKleur);
+	color: var(--selectedKleur);
 }
 
 /****************/
@@ -189,11 +226,336 @@ nav ul.toonMenu {
 	}
 }
 
-
 /****************/
-/* MAIN STYLING */
+/* MAIN STYLING 1STE ARTICLE */
+/* WORD PARTNER */
 /****************/
 
 main {
+	margin-top: 5em;
+	margin-left: 0;
+}
+
+main section:first-of-type article {
+	margin:0 1em 3em 1em;
+}
+
+main section:first-of-type article div {
+	margin: 0 1em;
+}
+
+main section:first-of-type article {
+	background-image: url("https://images.unsplash.com/photo-1525340941843-5ab5dd974e0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGRpcnR5JTIwaGFuZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60") /* unsplash foto: Nathan Dumlao */ ;
+	padding: 8em 2em 1em 2em;
+	margin: 0 0 2em 0;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0 -7em;
+	position: relative;
+}
+
+main section:first-of-type article p {
+	font-size: 1.2em;
+	font-family: 'Barlow', sans-serif;
+	line-height: 1.2em;
+	margin-top: 0;
+	color: white
+}
+
+main section:first-of-type article h2 {
+	margin-bottom: .3em;
+	color: white;
+	font-size: 1.5em;
+}
+
+main section:first-of-type article img {
+	width: 100vw;
+	margin: 0;
+}
+
+/****************/
+/* 1STE SECTION LINK STYLING */
+/****************/
+
+main section:first-of-type article a{
+	border-radius: 1.1em;
+	border: 3px solid var(--accentGroen);
+	background-color: transparent;
+	padding: .5em;
+	font-family: 'Barlow', sans-serif;
+	color: var(--accentGroen);
+	position: absolute;
+	right: 2em;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main section:first-of-type article a:hover{
+	border: 3px solid var(--accentBlauw);
+	font-family: 'Barlow', sans-serif;
+	color: var(--accentBlauw);
+	position: absolute;
+	right: 2em;
+	transition: .5s ease-in-out;
+}
+
+main section:first-of-type article a:visited {
+	border-color: var(--visitedKleur);
+	color: var(--visitedKleur);
+}
+
+main section:first-of-type article a:focus {
+	outline: none;
+	border-color: var(--selectedKleur);
+	color: var(--selectedKleur);
+}
+
+/****************/
+/* MAIN STYLING 2DE SECTION */
+/* STATESTIEKEN */
+/****************/
+
+main section:nth-of-type(2) {
 	margin: 5em 1em;
 }
+
+main section:nth-of-type(2) h3 strong {
+	color: var(--accentGroen);
+}
+
+main section:nth-of-type(2) p strong {
+	color: var(--accentGroen);
+}
+
+main section:nth-of-type(2) h3 {
+	margin: 0 1em 1.5em 1em;
+	font-size: 2em;
+	color: white;
+}
+
+main section:nth-of-type(2) {
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+main section:nth-of-type(2) article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+main section:nth-of-type(2) article img {
+	width: 60vw;
+}
+
+main section:nth-of-type(2) article p:first-of-type {
+	font-size: 3em;
+	font-family: 'Barlow', sans-serif;
+	margin: 0;
+}
+
+main section:nth-of-type(2) article p {
+	margin: 0 1em;
+}
+
+/****************/
+/* MAIN STYLING 3DE SECTION */
+/* 	AANMELDEN */
+/****************/
+
+main section:nth-of-type(3) h3{
+	font-size: 1.5em;
+	margin: .3em 0;
+}
+
+main section:nth-of-type(3) p{
+	margin: 0;
+}
+
+main section:nth-of-type(3) div article {
+	position: relative;
+	margin: 3em 2em ;
+}
+
+/****************/
+/* 3DE SECTION LINK STYLING */
+/****************/
+
+main section:nth-of-type(3) div article a {
+	background-color: transparent;
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	padding: .5em;
+	border: 3px solid var(--accentGroen);
+	color: var(--accentGroen);
+	border-radius: 1.1em;
+	position: absolute;
+	right: 0;
+	margin-top: .8em;
+}
+
+main section:nth-of-type(3) div article a:hover {
+	border: 3px solid var(--accentBlauw);
+	font-family: 'Barlow', sans-serif;
+	color: var(--accentBlauw);
+	transition:  .5s ease-in-out;
+}
+
+main section:nth-of-type(3) div article a:visited {
+	border-color: var(--visitedKleur);
+	color: var(--visitedKleur);
+}
+
+main section:nth-of-type(3) div article a:focus {
+	border-color: var(--selectedKleur);
+	color: var(--selectedKleur);
+	outline: none;
+}
+
+/****************/
+/* VIDEO LINK STYLING */
+/****************/
+
+main section:nth-of-type(3) div iframe  {
+	width: 100vw;
+}
+
+main section:nth-of-type(3) div div p {
+	margin: 0 2em;
+}
+
+main section:nth-of-type(3) div p a{
+	text-decoration: none;
+	color: var(--accentGroen);
+	font-family: 'Barlow', sans-serif;
+}
+
+main section:nth-of-type(3) div p a:hover{
+	text-decoration: none;
+	color: var(--accentBlauw);
+	font-family: 'Barlow', sans-serif;
+	transition: .5s ease-in-out;
+}
+
+main section:nth-of-type(3) div p a:visited {
+	border-color: var(--visitedKleur);
+	color: var(--visitedKleur);
+}
+
+main section:nth-of-type(3) div p a:focus {
+	color: var(--selectedKleur);
+	outline: none;
+}
+
+/* HOE PAS IK IN DE VIDEO DE FOCUS STATE AAN? */
+
+/****************/
+/* 3DE SECTION IMAGES STYLING */
+/****************/
+
+main section:nth-of-type(3) div img {
+	width: 100vw;
+	margin-top: 1em;
+	/* bron unsplash : respectivelijk = Toa Heftiba - Davor Nisevic - Fabian Blank - Spencer Pugh */
+}
+
+/****************/
+/* 4DE SECTION STYLING */
+/****************/
+
+main section:nth-of-type(4) {
+	margin: 2em 2em;
+	background-color: #E5EDA4;
+	border-radius: 2em;
+	padding: 2em;
+}
+
+main section:nth-of-type(4) h3 {
+	font-size: 1.5em;
+	margin: .3em 0;
+	color: black;
+}
+
+main section:nth-of-type(4) p {
+	color: black;
+}
+
+/****************/
+/* 4DE SECTION FORM STYLING */
+/****************/
+
+main section:nth-of-type(4) form label {
+	color: black;
+	font-family: 'Barlow', sans-serif;
+}
+
+main section:nth-of-type(4) form input {
+	border: none;
+	color: black;
+	font-family: 'Barlow', sans-serif;
+	margin: .5em 0 .7em 0;
+	padding: .5em;
+	background-color: transparent;
+	border-bottom: 3px solid var(--accentBlauw);
+	width: 16em;
+}
+
+main section:nth-of-type(4) form input:hover {
+	border: none;
+	transition:  .3s ease-in-out;
+	border-bottom: 3px solid var(--accentBlauw);
+	background-color: #AED6F1;
+	border-top-left-radius: 1.1em;
+	border-top-right-radius: 1.1em;
+	transition: .3s ease-in-out;
+}
+
+main section:nth-of-type(4) form input:focus {
+	outline: none;
+	border-bottom: 3px solid var(--selectedKleur);
+	transition:  .3s ease-in-out;
+	background-color: #F4A460;
+	border-top-left-radius: 1.1em;
+	border-top-right-radius: 1.1em;
+}
+
+/****************/
+/* 4DE SECTION SUBMIT STYLING */
+/****************/
+
+main section:nth-of-type(4) form input:nth-of-type(3) {
+	background-color: transparent;
+	font-family: 'Barlow', sans-serif;
+	text-decoration: none;
+	padding: .5em 1.5em;
+	border: 3px solid var(--accentBlauw);
+	color: black;
+	border-radius: 1.1em;
+	margin-top: .8em;
+	width:  auto;
+}
+
+main section:nth-of-type(4) form input:nth-of-type(3):focus {
+	border: 3px solid var(--selectedKleur);
+}
+
+/****************/
+/* FOOTER STYLING */
+/****************/
+
+footer {
+	background-color: var(--accentGroen);
+}
+
+footer nav h4 {
+	color: black;
+}
+
+/****************/
+/* MEDIAQUERY VOOR RESPONSIVE SITE */
+/****************/
+
