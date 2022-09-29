@@ -230,17 +230,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb de afgelopen week de gehele vormgeving van mijn site omgegooid. Ik kwam erachter dat ik wel de huisstijl kleuren gebruikte maar volledig afweek van de sfeer dat het bedrijf heeft.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Eefje                                                       | Donny                             | student 3           | student 4        |
+  | ---                                                         | ---                               | ---                 | ---              |
+  | Ik wil graag een simpele skiplink maken.  | en dit          | Donny wil bezig met positions     | en dan ik dat       |
+  | Ik vind het moeilijk om te beginnen met mijn tweede pagina. | tekst verschijnen en verdwijnen   | dit wil ik zeker    |
+  | ...                                                         | ...                               | ...                 | ...              |
 
 
   ### Verslag van meeting

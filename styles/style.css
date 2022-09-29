@@ -534,12 +534,12 @@ main section:nth-of-type(4) p {
 /* 4DE SECTION FORM STYLING */
 /****************/
 
-main section:nth-of-type(4) form label {
+main section:nth-of-type(4) form div label {
 	color: black;
 	font-family: 'Barlow', sans-serif;
 }
 
-main section:nth-of-type(4) form input {
+main section:nth-of-type(4) form div input {
 	border: none;
 	color: black;
 	font-family: 'Barlow', sans-serif;
@@ -550,7 +550,7 @@ main section:nth-of-type(4) form input {
 	width: 16em;
 }
 
-main section:nth-of-type(4) form input:hover {
+main section:nth-of-type(4) form div input:hover {
 	border: none;
 	transition:  .3s ease-in-out;
 	border-bottom: 3px solid var(--achtergrond);
@@ -560,7 +560,7 @@ main section:nth-of-type(4) form input:hover {
 	transition: .3s ease-in-out;
 }
 
-main section:nth-of-type(4) form input:focus {
+main section:nth-of-type(4) form div input:focus {
 	outline: none;
 	border-bottom: 3px solid var(--selectedKleur);
 	transition: .3s ease-in-out;
@@ -574,7 +574,7 @@ main section:nth-of-type(4) form input:focus {
 /* 4DE SECTION SUBMIT STYLING */
 /****************/
 
-main section:nth-of-type(4) form input:nth-of-type(3) {
+main section:nth-of-type(4) form div:nth-of-type(2) input {
 	background-color: transparent;
 	font-family: 'Barlow', sans-serif;
 	text-decoration: none;
@@ -587,7 +587,7 @@ main section:nth-of-type(4) form input:nth-of-type(3) {
 	box-shadow: 4px 4px 11px -3px #35453C;
 }
 
-main section:nth-of-type(4) form input:nth-of-type(3):hover {
+main section:nth-of-type(4) form div:nth-of-type(2) input:hover {
 	cursor: pointer;
 	border-color: 4px solid var(--hoverKleur);
 	color: var(--hoverKleur);
@@ -597,7 +597,7 @@ main section:nth-of-type(4) form input:nth-of-type(3):hover {
 	letter-spacing: 1px;
 }
 
-main section:nth-of-type(4) form input:nth-of-type(3):focus {
+main section:nth-of-type(4) form div:nth-of-type(2) input:focus {
 	border: 3px solid var(--selectedKleur);
 }
 
@@ -720,8 +720,37 @@ footer section ul li:hover {
 
 
 @media (min-width:57em) {
+	main {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
 	header div {
 		height: 90vh;
+	}
+	header a {
+		font-size: 1.5em;
+		padding: 2vw;
+	}
+	header a:hover {
+		font-weight: bold;
+	}
+	main a {
+		font-size: 1.5em;
+		padding: 2vw;
+	}
+	main a:hover {
+		font-weight: bold;
+	}
+	footer li {
+		padding: .3em;
+	}
+	footer a{
+		font-size: 1em;
+	}
+	footer a:hover{
+		font-weight: bold;
 	}
 	/****************/
 	/* 1STE SECTION */
@@ -760,6 +789,7 @@ footer section ul li:hover {
 		display: flex;
 		flex-direction: column;
 		color: var(--textKleur);
+		width: 100%;
 	}
 	main section:nth-of-type(2) p strong {
 		color: var(--accentTurquase);
@@ -771,7 +801,8 @@ footer section ul li:hover {
 		display: flex;
 		justify-content: space-around;
 		flex-direction: row;
-		gap: 10vw;
+		width: 15vw;
+		gap: 1vw;
 	}
 	main section:nth-of-type(2) article {
 		width: 25vw;
@@ -787,11 +818,14 @@ footer section ul li:hover {
 	main section:nth-of-type(3) div {
 		display: flex;
 		gap: 5vw;
-		margin-top: 5em;
 		align-items: flex-start;
+		background-color: var(--accentBlauw);
+		border-radius: .4em;
+		padding: 4vw;
 	}
 	main section:nth-of-type(3) div article {
 		margin: 2em 0;
+		padding: 4vw;
 	}
 	main section:nth-of-type(3) div img {
 		width: 36vw;
@@ -799,17 +833,71 @@ footer section ul li:hover {
 	main section:nth-of-type(3) div:nth-of-type(2) {
 		display: flex;
 		flex-direction: row-reverse;
-		align-items: flex-start;
-		/* WAAROM WERKT DIT NIET? */	
+		align-items: flex-start;	
+	}
+	main section:nth-of-type(3) div:nth-of-type(2) article{
+		padding-top: 6em;
+		margin: 0;
 	}
 	main section:nth-of-type(3) div:nth-of-type(2) div {
 		display: block;
+		background-color: transparent;
 	} 
+	section:nth-of-type(3) div div p a {
+		font-size: 1em;
+		padding: 0;
+	}
+	section:nth-of-type(3) div div p a:hover {
+		font-weight: bold;
+		padding: 0;
+	}
 	main section:nth-of-type(3) div:nth-of-type(2) div iframe {
 		padding: 0;
 		width: 36vw;
 	} 
 	main section:nth-of-type(3) div:nth-of-type(4) {
 		flex-direction: row-reverse;
+	}
+	/****************/
+	/* 4DE SECTION */
+	/****************/
+	main section:nth-of-type(4) {
+		width: 60vw;
+		padding: 4vw;
+		margin-bottom: 15vh;
+	}
+	main section:nth-of-type(4) h3 {
+		font-size: 1.8em;
+		text-align: center;
+	}
+	main section:nth-of-type(4) p {
+		text-align: center;
+	}
+	main section:nth-of-type(4) form div:nth-of-type(1) {
+		display: flex;
+		gap: 1em;
+		justify-content: center;
+		align-items: center;
+		margin-top: 2em;
+	}
+	main section:nth-of-type(4) form div:nth-of-type(2) {
+		display: flex;
+		justify-content: center;
+	}
+	main section:nth-of-type(4) form div:nth-of-type(2) input {
+		font-size: 1.3em;
+		padding: 2vh 3vw;
+		letter-spacing: 1px;
+	}
+	/****************/
+	/* FOOTER SECTION */
+	/****************/
+	footer nav {
+		display: flex;
+		justify-content: center;
+		gap: 2vw;
+	}
+	footer div {
+		width: 30vw;	
 	}
 }
