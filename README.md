@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.fairtradenederland.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Fairtrade home  
-  <img src="readme-images/fairtradehome.png" width="375px" alt="omschrijving van de pagina">
+  Fairtrade word partner  
+  <img src="readme-images/fairtradehome.png" width="375px" alt="de pagina is vrij saai en naar mijn mening niet erg wervend. Dit kan beter.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Wat is fairtrade?  
-  <img src="readme-images/watisfairtrade.png" width="375px" alt="omschrijving van de pagina">
+  Fairtrade producten  
+  <img src="readme-images/watisfairtrade.png" width="375px" alt="De producten pagina zit vrij goed in elkaar maar wilde ik nog wat extra's aan meegeven.">
  
 </details>
 
@@ -133,20 +133,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1: Eefje               | student 2: Nicole          | student 3    | student 4        |
-  | ---                            | ---                        | ---          | ---              |
-  | Verbeteringen site             | Verbeteringen site         | en ik dit    | en dan ik dat    |
-  | Semantische html               |                            | nog een punt | dit wil ik zeker |
-  | Footer                         | ...                        | ...          | ...              |
+  | Eefje                          | Nicole                     | Donny                          |
+  | ---                            | ---                        | ---                            |
+  | Verbeteringen site             | Verbeteringen site         | Hoe werken de css selectors    |
+  | Semantische html opzetten      | Opzetten van html          | Waar moet ik alles uploaden    |
+  | Footer                         |                            |                                | 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1: Er zijn een aantal punten op de huidige site die niet al te best zijn en die ik graag wil verbeteren. Ik had moeite met keuzes maken over hoe ik die problemen moest oplossen. Hierbij ben ik geholpen, voornamelijk met het probleem bij het menu.
+  - punt 1: Er zijn een aantal punten op de huidige site die niet al te best zijn en die ik graag wil verbeteren. Ik had moeite met keuzes maken over hoe ik die problemen moest oplossen. Hierbij ben ik     geholpen, voornamelijk met het probleem bij het menu.
   - punt 2: Ik wilde de site qua toegankelijkheid verbeteren, ik had wat vragen gesteld over bepaalde attributes. Ik kreeg fijne antwoorden waar ik later meer mee kan.
   - punt 3: Ik had een probleem met de heading levels maar die lostte zich vanzelf op.
-  - ...
 
 </details>
 
@@ -166,20 +165,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | tijd inhalen   | en dit             | en ik dit    | en dan ik dat    |
-  |                | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Eefje          | Donny                        | Nicole                                                 | 
+  | ---            | ---                          | ---                                                    |
+  | tijd inhalen   | HTML class aan js koppelen   | Nicole heb ik niet kunnen spreken voor deze meeting    | 
+  |                |                              |                                                        |
+  | ...            |                              |                                                        | 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - punt 1: Mijn enige punt deze week was het bijwerken en zorgen dat ik genoeg had om in te leveren aan het eind van het vak. Ik kreeg meteen als antwoord dat dat absoluut mogelijk is en dat ik het zeker nog ga halen als ik genoeg tijd en aandacht in de website steek. Dit hielp mij enorm, ik was even de draad kwijt en gelukkig werd deze mij aangerijkt.
+
 
 </details>
 
@@ -193,30 +190,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Dit was mijn eerste test die ik op school heb gedaan. De gene hiervoor was met behulp van mijn huisgenoot thuis uitgevoerd. Ik merkte dat er gelukkig niet erg veel verschil zat tussen de efficiëntie van beide tests.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik vind het gebruiken van een screenreader niet bepaald makkelijk maar gelukkig was het al een enorme verbetering ten opzichte van de huidige fairtrade site. In de site die ik heb gemaakt kan er gemakkelijk door de navigatie gegaan worden en zijn er niet overweldigend veel links om doorheen te gaan. Ook zijn de links in de content nu gemakkelijker te bedienen. De video en de navigatie in de footer zijn wel nog moeilijk. Elke link wordt uitgesproken wat vrij verwarrend kan zijn. Ik heb meerdere keren gevraagd over skiplinks maar dat was nog wat te moeilijk. Ik kijk in het verloop van dit vak of ik dat nog kan toevoegen. Niet alles had (de juiste) alt-text, dit heb ik meteen aangepast. 
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Door de site bewegen is een stuk gemakkelijker geworden in mijn re-design. Het was een beetje puzzelen met hoe alles bedient moest worden maar de focus-states zijn aanwezig en vallen goed op.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De motorieke kant van de huidige fairtrade website was vrij goed uitgewerkt. De buttons waren groot genoeg om op te klikken en de site is over het algemeen zo ingericht dat je er goed doorheen kan gaan zonder gekke dingen. Mijn doel hierbij was dit behouden, misschien hier en daar wat verbeteren maar het was al vrij goed. Uit de test bleek dat sommige buttons en links wel wat klein waren. Deze heb ik later nog wat groter gemaakt.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Om eerlijk te zijn had ik weinig moeite met het zien door de brillen, maar door mijn ogen samen te knijpen kreeg ik een beter idee van de site. Ook mijn partner heeft meegekeken en hij was het eens met mijn bevindingen. Voor kleurenblinde mensen is de site toegankelijk en kan het goed gebruikt worden. Ook mensen die moeite hebben met contrast zien, zullen geen/nauwelijks moeite hebben met de site. Wel waren er een aantal onderdelen die wat wegvielen, deze heb ik snel een andere kleur of grootte gegeven. 
 
 </details>
 
@@ -236,20 +225,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Eefje                                                       | Donny                             | student 3           | student 4        |
-  | ---                                                         | ---                               | ---                 | ---              |
-  | Ik wil graag een simpele skiplink maken.  | en dit          | Donny wil bezig met positions     | en dan ik dat       |
-  | Ik vind het moeilijk om te beginnen met mijn tweede pagina. | tekst verschijnen en verdwijnen   | dit wil ik zeker    |
-  | ...                                                         | ...                               | ...                 | ...              |
+  | Eefje                                                       | Donny                             | Nicole                                                 | 
+  | ---                                                         | ---                               | ---                                                    | 
+  | Ik wil graag een simpele skiplink maken.                    | Donny wil bezig met positions     | Nicole heb ik niet kunnen spreken voor deze meeting    |
+  | Ik vind het moeilijk om te beginnen met mijn tweede pagina. | tekst verschijnen en verdwijnen   |                                                        |
+  | ...                                                         | classes                           |                                                        | 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: De skiplink is nog niet gelukt. Misschien kan dat nog komen maar het lukt me nog niet. 
+  - punt 2: Het beginnen met de tweede pagina is direct na de meeting van start gegaan en ging vrij soepel. Ik kreeg goede tips en er werd me verzekerd dat het gebruiken van een class geen probleem is voor een tweede pagina.
 
 </details>
 
@@ -263,19 +250,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/headermetanimatie" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/gridmetdraaibarekaarten" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/formuliermetstates" width="375px" alt="uitkomst opdracht 1">
+
+  En nog veel meer mooie dingen natuurlijk!
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik ben meer gaan begrijpen hoe html en css in elkaar zitten en daarmee begrijp ik nu ook beter hoe ik kan designen voor toegankelijkheid.
+  Ondanks dat dit vak nauwelijks over javascript gaat, ben ik toch iets comfortabeler meer geworden.
+  Verder heb ik geleerd om met html en css hele leuke animaties te maken! Ik vind het heel leuk om te doen en het voegt echt wat toe.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/koffieanimatie" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik vind het jammer dat het me nog niet gelukt ik om een skiplink in te voegen. Ik ga dit zometeen nog 1 laatste poging geven maar of het nou lukt of niet. Ik vind het iets lastigs.
+  Verder had ik ook moeite met het responsive maken van de site. Dit is niet mijn gekozen onderwerp maar ik wilde toch graag een nette schaalbare website maken. Dit was moeilijker dan ik dacht.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/videogeenskipLink" width="375px" alt="bummer">
 </details>
 
 
@@ -289,8 +283,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. unsplash voor alle foto's die er te zien zijn op de site. Dit is een website waar je gratis foto's kan downloaden zonder plagiaat te plegen.
+  2. flaticon voor alle icoontjes. Ook deze site is gratis en zonder plagiaat.
+  3. cubic-bezier.com als een cubic-bezier generator. Deze heb ik gebruikt bij animaties.
+  4. 9elements.github.io als een border-radius generator. Met deze site heb ik alle gekke illustraties kunnen maken.
+  5. cssgradient.io als een gradient generator. Deze is terug te zien in het pompoentje linksbovenin op de site.
+  6. coolors.co als color generator. Hier kon ik gemakkelijk allerlei kleuren genereren maar ook naast elkaar zetten om de leesbaarheid te vergelijken.
+  7. pixabay.com voor een gratis korte audia voor de halloweenstate.
+  8. Stackoverflow questions om een minimum font-size in te stellen.
+  9. html-css-js.com als een box-shadow generator. Hier heb ik ook de styling van de link border vandaan.
+  10. hubspot.com 24 creative css animation examples. Ik heb voorbeeld 8 gevolgd, niet precies hetzelfde nagemaakt maar wel als rode draad gebruikt.
+  11. w3schools flip card om de kaarten op de productenpagina te kunnen draaien (alleen de html). De javascript heb ik er zelf aan toegevoegd.
+  12. youtube Change Image using Onclick. Simple Js tricks door simple codes om een image te veranderen in de halloweenstate. (katarina had deze mij meegegeven)
 
 </details>
